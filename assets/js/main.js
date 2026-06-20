@@ -1,0 +1,1 @@
+$(function(){ $('.mobile-toggle').on('click',function(){ $('.menux').toggleClass('open'); }); $('a[href^="#"]').on('click',function(e){ var t=$($(this).attr('href')); if(t.length){e.preventDefault(); $('html,body').animate({scrollTop:t.offset().top-90},450);}}); });
