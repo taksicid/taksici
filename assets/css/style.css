@@ -110,7 +110,7 @@ img {
     align-items: center;
     justify-content: center;
     gap: 9px;
-    padding: 13px 18px;
+    padding: 3px 12px;
     border-radius: 999px;
     font-weight: 900;
     border: 1px solid rgba(255, 255, 255, .08);
@@ -566,8 +566,6 @@ section {
     }
 
     .floating {
-        left: 12px;
-        right: 12px;
         display: grid
     }
 
